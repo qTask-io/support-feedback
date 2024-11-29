@@ -1,10 +1,23 @@
----
-name: Describe the issue or suggestion
-about: Please describe your issue, suggestion, or feedback
-title: ''
-labels: ''
-assignees: ''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
 
----
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
